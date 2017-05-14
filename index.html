@@ -1,0 +1,186 @@
+<html>
+<head>
+  <title>Thumbnail View</title>
+</head>
+<style>
+body{
+  margin: 0px;
+}
+#thumb_cont{
+  height: 50%;
+  width: 90%;
+  margin: 100px auto;
+  /*border: red 1px dashed;*/
+  overflow: hidden;
+}
+.thumbs{
+  position: relative;
+  width: 20%;
+  height: 50%;
+  background-color: grey;
+  float: left;
+  overflow: hidden;
+  background-position: center center;
+  background-size: cover;
+
+}
+.thumbs:hover div {
+  top: 0;
+}
+#thumb1{background-image: url(image/105H.jpg);}
+#thumb2{background-image: url(image/243H.jpg);}
+#thumb3{background-image: url(image/287H.jpg);}
+#thumb4{background-image: url(image/302H.jpg);}
+#thumb5{background-image: url(image/307H.jpg);}
+#thumb6{background-image: url(image/311H.jpg);}
+#thumb7{background-image: url(image/341H.jpg);}
+#thumb8{background-image: url(image/deck.jpg);}
+#thumb9{background-image: url(image/shoes.jpg);}
+#thumb10{background-image: url(image/wheels.jpg);}
+.img {
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+}
+.overlay{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  background-color: rgba(60, 130, 60, 0.8);
+  top: 100%;
+  transition: top 0.5s;
+  -webkit-transition: top 0.5s;
+  -moz-transition: top 0.5s;
+  -o-transition: top 0.5s;
+  font-family: cursive;
+  color:rgba(255, 255, 255, 0.6);
+  text-align: center;
+  font-size: 14px;
+  font-weight: bold;
+}
+.btn{
+  text-align: center;
+  width: 50%;
+  height: 30px;
+  background-color: rgba(60, 130, 60, 0.8);
+  border: none;
+  font-family: cursive;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.9);
+  cursor: pointer;
+  transition: color 0.5s 0s, background 0.5s 0s, border 0.5s 0s;
+  -webkit-transition: color 0.5s 0s, background 0.5s 0s, border 0.5s 0s;
+  -moz-transition: color 0.5s 0s, background 0.5s 0s, border 0.5s 0s;
+  -o-transition: color 0.5s 0s, background 0.5s 0s, border 0.5s 0s;
+  /*border: rgba(255, 255, 255, 0.5) 2px solid;*/
+}
+.btn:hover{
+  color: rgba(60, 130, 60, 1);
+  background-color: rgba(255, 255, 255, 0.8);
+  border: rgba(255, 255, 255, 0.5) 2px solid;
+}
+.innercont{
+  width: 80%;
+  height: 80%;
+  margin: 0px auto;
+}
+</style>
+<body>
+  <div id="Thumb_cont">
+    <div class="thumbs" id="thumb1">
+      <div class="overlay">
+        <div class="innercont">
+          <h2>Header</h2>
+          <p>This is the discription of the image</p>
+          <button class="btn">Download</button>
+        </div>
+      </div>
+    </div>
+    <div class="thumbs" id="thumb2">
+      <div class="overlay">
+        <div class="innercont">
+          <h2>Header</h2>
+          <p>This is the discription of the image</p>
+          <button class="btn">Download</button>
+        </div>
+      </div>
+    </div>
+    <div class="thumbs" id="thumb3">
+      <div class="overlay">
+        <div class="innercont">
+          <h2>Header</h2>
+          <p>This is the discription of the image</p>
+          <button class="btn">Download</button>
+        </div>
+      </div>
+    </div>
+    <div class="thumbs" id="thumb4">
+      <div class="overlay">
+        <div class="innercont">
+          <h2>Header</h2>
+          <p>This is the discription of the image</p>
+          <button class="btn">Download</button>
+        </div>
+      </div>
+    </div>
+    <div class="thumbs" id="thumb5">
+      <div class="overlay">
+        <div class="innercont">
+          <h2>Header</h2>
+          <p>This is the discription of the image</p>
+          <button class="btn">Download</button>
+        </div>
+      </div>
+    </div>
+    <div class="thumbs" id="thumb6">
+      <div class="overlay">
+        <div class="innercont">
+          <h2>Header</h2>
+          <p>This is the discription of the image</p>
+          <button class="btn">Download</button>
+        </div>
+      </div>
+    </div>
+    <div class="thumbs" id="thumb7">
+      <div class="overlay">
+        <div class="innercont">
+          <h2>Header</h2>
+          <p>This is the discription of the image</p>
+          <button class="btn">Download</button>
+        </div>
+      </div>
+    </div>
+    <div class="thumbs" id="thumb8">
+      <div class="overlay">
+        <div class="innercont">
+          <h2>Header</h2>
+          <p>This is the discription of the image</p>
+          <button class="btn">Download</button>
+        </div>
+      </div>
+    </div>
+    <div class="thumbs" id="thumb9">
+      <div class="overlay">
+        <div class="innercont">
+          <h2>Header</h2>
+          <p>This is the discription of the image</p>
+          <button class="btn">Download</button>
+        </div>
+      </div>
+    </div>
+    <div class="thumbs" id="thumb10">
+      <div class="overlay">
+        <div class="innercont">
+          <h2>Header</h2>
+          <p>This is the discription of the image</p>
+          <button class="btn">Download</button>
+        </div>
+      </div>
+    </div>
+
+
+
+  </div>
+</body>
+</html>
